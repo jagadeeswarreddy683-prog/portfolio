@@ -1,0 +1,60 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 30px 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Section Styling */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-box {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
